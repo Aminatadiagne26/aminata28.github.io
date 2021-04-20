@@ -1,0 +1,170 @@
+header{
+  background:url("background1.jpg");
+  font-family:Tahoma, Geneva, Verdana,'Gill Sans', 'Gill Sans MT', sans-serif;
+  background-size: cover;
+  padding: 300px;
+  text-align: right;
+  max-height: max-content;
+}
+ nav, #label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 40px;
+    font-weight: 700;
+  }
+nav ul{
+  box-sizing: border-box;
+   height: 60px;
+   width: 100%;
+  padding: 0px;
+  margin:  5px;
+  line-height: 80px;
+  margin-inline-end: 20px;
+  list-style: none;
+   text-align: center;
+}
+nav li{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+  border-right: 1px solid rgba(0, 0, 255, 0.534);
+  text-align: center;
+  line-height: 40px;
+}
+nav li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  text-decoration: none;
+  color:black;
+}
+nav li:hover{
+  background-color: white;
+  border-radius: 3px;
+}
+#partie1{
+    padding: 60px 0;
+}
+#partie1 article{
+    width: 720px;
+    height: 300px;
+    float: left;
+    border-radius: 30px;
+    
+}
+#partie1 article:first-child{
+    margin-right: 20px;
+}
+.overlay{
+    background: rgba(255, 255, 250, 0.95);
+    height: 65%;
+    width: 230px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#Thailande{
+    background-image: url(thailande1.jpg);
+    
+    
+}
+#Vietnam{
+    background-image: url(vietnam1.jpg)
+    
+}
+article h4{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#partie1 p{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.button-1{
+    color: #fff;
+    background-color:rgba(0, 0, 255, 0.452) ;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+.button-1:hover{
+    color:#fff;
+    background-color: #02b8dd;
+}
+#partie2{
+    padding: 60px 0;
+}
+#partie2 article{
+    width: 720px;
+    height: 300px;
+    float: left;
+    border-radius: 30px;
+    
+}
+#partie2 article:first-child{
+    margin-right: 20px;
+}
+.overlay{
+    background: rgba(255, 255, 250, 0.95);
+    height: 65%;
+    width: 230px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#Inde{
+    background-image: url(Taj-Mahal-Inde-600x330.jpg);
+    
+    
+}
+#Chine{
+    background-image: url(chine.jpg)
+    
+}
+article h4{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#partie2 p{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.button-2{
+    color: #fff;
+    background-color:rgba(0, 0, 255, 0.452) ;
+    padding: 6px 20px;
+    border-radius: 3px;
+}
+.button-2:hover{
+    color:#fff;
+    background-color: #02b8dd;
+}
+body{
+  background-color:burlywood;
+}
+footer{
+    height: 260px;
+}
+footer h1{
+    color: black;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}

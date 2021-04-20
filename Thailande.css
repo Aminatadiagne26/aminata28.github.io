@@ -1,0 +1,97 @@
+header{
+  background:url("thailande2.jpg");
+  font-family:Tahoma, Geneva, Verdana,'Gill Sans', 'Gill Sans MT', sans-serif;
+  background-size: cover;
+  padding: 300px;
+  text-align: left;
+  max-height: max-content;
+}
+nav, #label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 40px;
+    font-weight: 700;
+  }
+nav ul{
+  box-sizing: border-box;
+   height: 60px;
+   width: 100%;
+  padding: 0px;
+  margin:  5px;
+  line-height: 80px;
+  margin-inline-end: 20px;
+  list-style: none;
+   text-align: center;
+}
+nav li{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  margin: 0px;
+  padding: 0px;
+  border-right: 1px solid rgba(0, 0, 255, 0.534);
+  text-align: center;
+  line-height: 40px;
+}
+nav li a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+  text-decoration: none;
+  color:black;
+}
+nav li:hover{
+  background-color: white;
+  border-radius: 3px;
+}
+img{
+    float: center;
+    width: 200px;
+    width: 30%;
+
+}
+div, #iframe{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: top;
+}
+h2{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    width: 400px;
+    width: 100%;
+  }
+  h2, p{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Geneva, Verdana, sans-serif;
+   margin: 0px;
+   padding: 0px;
+  }
+  div{
+     text-align: center;
+  }
+ 
+body{
+    background-color: burlywood;
+    color: black;
+    }
+    
+footer{ 
+    height: 260px;
+}
+footer h1{
+    color: black;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+
+
+    
